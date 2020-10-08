@@ -152,19 +152,19 @@ a {
 }
 
 .container-team-left{
-	background-image: url(img/Team/wet-lab.png);
+	background-image: url(../resources/img/Team/wet-lab.png);
 	background-size: cover;
 	background-position: center;
 }
 
 .container-team-center{
-	background-image: url(img/Team/dry-lab.jpg);
+	background-image: url(../resources/img/Team/dry-lab.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 .container-team-right{
-	background-image: url(img/Team/pnp.jpg);
+	background-image: url(../resources/img/Team/pnp.jpg);
 	background-size: cover;
 	background-position: center;
 }
