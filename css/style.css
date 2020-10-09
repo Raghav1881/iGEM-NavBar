@@ -497,4 +497,13 @@ a {
     height: 50px;
     margin-right: 20px;
     margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+}
+
+.image-scaling {
+	width:100%;
+	max-width:400%;
+	height: auto;
+}
+
+	
 /* CONTACT US */
