@@ -5,6 +5,11 @@
   color: #8F9092;
 }
 
+body {
+	font-family: 'Lato', sans-serif;
+	padding: 91px
+}
+
 /* ACCENTS */
 
 /* TEXT STYLES */
@@ -29,6 +34,13 @@ h1{
 }
 
 /* NAVBAR */
+.navbar {
+  background-color: #FFFFFF;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 9999;
+}
 
 a {
 	letter-spacing: 1.5px;
@@ -38,7 +50,12 @@ a {
 	letter-spacing: 1.5px;
 }
 
-.navbar-default { margin : 0 !important; }
+.navbar-default { 
+	margin : 0 !important;
+	background-color:#FFFFFF;
+	border-color:#FFFFFF
+	
+}
 
 /* HERO BOX */
 
@@ -48,6 +65,10 @@ a {
     margin-right: 20px;
     height: 80px;        /* if you want it to take the full height of the bar */
     line-height: 80px;    /* if you want it vertically middle of the navbar */
+	font-size: 40px;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 .hero-container{
@@ -505,5 +526,12 @@ a {
 	height: auto;
 }
 
+.nav-item {
+	font-size: 21px;
 	
+}
+.nav-item > a:hover {
+	color: #17425A !important;
+}
+
 /* CONTACT US */
