@@ -534,4 +534,44 @@ a {
 	color: #17425A !important;
 }
 
+.container {
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 4rem;
+	color: #333333;
+}
+.cursor {
+	border-right: .05em solid;
+	animation: caret 1s steps(1) infinite;
+}
+@keyframes caret {
+	50% {
+	  border-color: transparent;
+	}
+}
+
+.containerdiv { float: left; position: relative; } 
+.cornerimage {
+	position: absolute;
+	top: 5px;
+	right: 928px;
+	width: 82px;
+	height: 352px;
+} 
+.cornerimage2 {
+	position: absolute;
+	top: 137px;
+	right: 327px;
+	width: 155px;
+	height: 422px;
+	
+}
+.cornerimage3 {
+	position: absolute;
+	top: 271px;
+	right: 1419px;
+	width: 229px;
+	height: 363px;
+}
 /* CONTACT US */
